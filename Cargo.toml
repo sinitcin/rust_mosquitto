@@ -1,0 +1,12 @@
+[package]
+name = "mosquitto"
+version = "0.1.0"
+authors = ["sinicin <sinicin@bolid.ru>"]
+
+[dependencies]
+libc="*"
+sharedlib="*"
+
+[lib]
+name = "mosquitto"
+crate-type = ["dylib"]
